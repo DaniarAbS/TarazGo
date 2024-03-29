@@ -4,6 +4,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import Home from "../pages/Home.vue";
 import Selection from "../pages/Selection.vue";
 import MainPage from "../pages/MainPage.vue"
+import Karahan from "../components/Karahan.vue"
+import Nature from "@/pages/Nature.vue";
 import '@fortawesome/fontawesome-free/css/all.css';
 
 const routes = [
@@ -18,6 +20,14 @@ const routes = [
   {
     path: "/main_page",
     component: MainPage,
+  },
+  {
+    path: "/karahan",
+    component: Karahan,    
+  },
+  {
+    path: "/nature",
+    component: Nature,
   },
   // {
   //   path: "/:pathMatch(.*)*", // catch all 404 - make sure this is at the end

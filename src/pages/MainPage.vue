@@ -14,4 +14,5 @@
 <template>
     <MainPage />
     <ItemSlider />
+
 </template>
